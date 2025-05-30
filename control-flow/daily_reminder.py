@@ -14,9 +14,9 @@ while priority not in ["high", "medium", "low"]:
 # Use match-case for priority
 match priority:
     case "high":
-        message = f" Reminder: '{task}'"
+        message = f"'{task}'"
     case "medium":
-        message = f" Medium priority task: '{task}'."
+        message = f"'{task}' is a medium priority task."
     case "low":
         message = f"Note: '{task}'is a low priority task."
     case _:
@@ -29,5 +29,5 @@ elif time_bound == "no":
     message += " Consider completing it when you have free time."
 
 # Display the reminder
-print("\nYour Daily Reminder:")
-print(message)
+print("Reminder: ",message)
+#print(message)
