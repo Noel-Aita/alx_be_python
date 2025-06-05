@@ -20,7 +20,7 @@ def main():
 
         elif choice == '2':
             # Prompt for and remove an item
-            Item = input("What would you like to remove? ") 
+            Item = input("Enter the number to add: ") 
             if Item in shopping_list:
                 shopping_list.remove(Item)
             shopping_list.remove(Item)
