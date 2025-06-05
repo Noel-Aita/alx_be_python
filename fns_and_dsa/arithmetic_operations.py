@@ -20,8 +20,8 @@ def perform_operation():
         print(f"Result: {divide}")
         return divide
   
-    #result = perform_operation(num1, num2, operation)
-    #print(f"Result: {result}")
+    result = perform_operation(num1, num2, operation)
+    print(f"Result: {result}")
     
 
 perform_operation()
