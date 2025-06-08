@@ -17,8 +17,8 @@ def main():
         elif unit == "C":
             result = convert_to_fahrenheit(temp_value)
             print(f"{temp_value}\u00B0C is {result}\u00B0F")
-        #else:
-            #print("Invalid unit: Please enter 'F' for Fahrenheit or 'C' for Celsius")
+        else:
+            raise ValueError("Invalid unit: Please enter 'F' for Fahrenheit or 'C' for Celsius")
     except ValueError:
         raise ValueError("Invalid temperature: Please enter a numeric value.")
     
