@@ -7,7 +7,7 @@ def safe_divide(numerator, denominator):
         denom = float(denominator)
 
         result = num/denom
-        return f"The result of the vision is {result}"
+        return f"The result of the division is {result}"
 
         
        
